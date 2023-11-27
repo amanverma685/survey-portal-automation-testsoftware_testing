@@ -1,0 +1,30 @@
+{
+  "name": "survey-portal-automation-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@codeceptjs/configure": "^0.10.0",
+    "@hapi/joi": "^17.1.1",
+    "@types/chai": "^4.3.6",
+    "@types/hapi__joi": "^17.1.11",
+    "@types/node": "^20.8.2",
+    "chai": "^4.3.10",
+    "codeceptjs": "^3.5.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/expect": "^24.3.0",
+    "axios": "^1.5.1",
+    "chai-as-promised": "^7.1.1",
+    "codeceptjs-chai": "^2.3.5",
+    "expect": "^29.7.0"
+  }
+}

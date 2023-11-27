@@ -1,0 +1,5 @@
+import Joi from '@hapi/joi';
+
+const responseSchema = Joi.object().keys({ data: Joi.object().keys({ id: Joi.string(), surveyUrl: Joi.string(), numOfRespondents: Joi.number().integer(), maxCredits: Joi.number(), createdDate: Joi.string(), startDate: Joi.string(), expiryDate: Joi.string(), isActive: Joi.boolean(), surveyTime: Joi.number().integer(), surveyTimeUnit: Joi.string(), surveyTitle: Joi.string(), description: Joi.string(), studentsCriteria: Joi.string(), devices: Joi.string(), parameters: Joi.string(), completionCode: Joi.string(), requesterId: Joi.string(), surveyStatus: Joi.string(), recordIdMethod: Joi.string(), maxBonus: Joi.number().integer(), createdAt: Joi.string(), updatedAt: Joi.string() }), success: Joi.boolean(), message: Joi.string(), status: Joi.number().integer() })
+
+export default responseSchema;

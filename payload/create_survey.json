@@ -1,0 +1,167 @@
+{
+    "title": "Sample Survey",
+    "description": "Sample Survey",
+    "devices": [
+        "mobile",
+        "tablet",
+        "desktop"
+    ],
+    "surveyUrl": "www.sample.com",
+    "surveyTimeValue": "20",
+    "surveyTimeUnit": "min",
+    "creditsReward": 3,
+    "studentsRequired": 20,
+    "startDate": "2023-12-20T15:11:58.000Z",
+    "endDate": "2023-12-30T15:12:00.000Z",
+    "recordIdMethod": "URLParameter",
+    "parameters": [
+        {
+            "name": "Survey ID",
+            "value": "SURVEY_ID"
+        },
+        {
+            "name": "Student ID",
+            "value": "STUDENT_ID"
+        },
+        {
+            "name": "Session ID",
+            "value": "SESSION_ID"
+        }
+    ],
+    "studentsCriteria": {
+        "studentsRequired": 20,
+        "departments": [
+            {
+                "id": "CONST01003",
+                "constantType": "department",
+                "constantValue": "Computer Science",
+                "parentId": null,
+                "maxCredits": null,
+                "enabled": true,
+                "parent": null
+            }
+        ],
+        "minAge": 0,
+        "maxAge": 65,
+        "gender": [
+            {
+                "id": "CONST00065",
+                "constantType": "gender",
+                "constantValue": "Male",
+                "parentId": null,
+                "maxCredits": null,
+                "enabled": true,
+                "parent": null
+            }
+        ],
+        "specialization": [
+            {
+                "id": "CONST640374",
+                "constantType": "specialization",
+                "constantValue": "Digital Marketing",
+                "parentId": "CONST01004",
+                "maxCredits": 50,
+                "enabled": true,
+                "parent": {
+                    "id": "CONST01004",
+                    "constantType": "department",
+                    "constantValue": "Marketing",
+                    "enabled": true
+                }
+            }
+        ],
+        "nationality": [
+            {
+                "id": "CONST00005",
+                "constantType": "nationality",
+                "constantValue": "French",
+                "parentId": null,
+                "maxCredits": null,
+                "enabled": true,
+                "parent": null
+            },
+            {
+                "id": "CONST00006",
+                "constantType": "nationality",
+                "constantValue": "German",
+                "parentId": null,
+                "maxCredits": null,
+                "enabled": true,
+                "parent": null
+            }
+        ],
+        "ethnicity": [
+            {
+                "id": "CONST00052",
+                "constantType": "ethnicity",
+                "constantValue": "Hispanic or Latino",
+                "parentId": null,
+                "maxCredits": null,
+                "enabled": true,
+                "parent": null
+            }
+        ],
+        "race": [
+            {
+                "id": "CONST00045",
+                "constantType": "race",
+                "constantValue": "White alone, non-Hispanic",
+                "parentId": null,
+                "maxCredits": null,
+                "enabled": true,
+                "parent": null
+            },
+            {
+                "id": "CONST00046",
+                "constantType": "race",
+                "constantValue": "Black or African American alone, non-Hispanic",
+                "parentId": null,
+                "maxCredits": null,
+                "enabled": true,
+                "parent": null
+            }
+        ],
+        "major": [
+            {
+                "id": "CONST00084",
+                "constantType": "major",
+                "constantValue": "Agriculture and Life Sciences",
+                "parentId": null,
+                "maxCredits": null,
+                "enabled": true,
+                "parent": null
+            },
+            {
+                "id": "CONST00085",
+                "constantType": "major",
+                "constantValue": "Animal and Poultry Sciences",
+                "parentId": null,
+                "maxCredits": null,
+                "enabled": true,
+                "parent": null
+            }
+        ],
+        "maritalStatus": [
+            {
+                "id": "CONST00073",
+                "constantType": "marital_status",
+                "constantValue": "Single",
+                "parentId": null,
+                "maxCredits": null,
+                "enabled": true,
+                "parent": null
+            },
+            {
+                "id": "CONST00074",
+                "constantType": "marital_status",
+                "constantValue": "Married",
+                "parentId": null,
+                "maxCredits": null,
+                "enabled": true,
+                "parent": null
+            }
+        ],
+        "householdIncomeMax": 4000,
+        "householdIncomeMin": 2000
+    }
+}
